@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seed to Harvest | Pumpkin Farm Micro-Grant</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .progress-bar-fill {
+            transition: width 1s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800 font-sans antialiased">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-amber-700 text-amber-50 text-xs sm:text-sm font-medium py-2 px-4 text-center">
+        🌱 100% of all micro-grants go directly to physical farm inputs.
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="max-w-5xl mx-auto px-4 py-6 flex justify-between items-center border-b border-stone-200">
+        <div class="flex items-center space-x-2">
+            <span class="text-2xl">🎃</span>
+            <span class="font-bold text-xl text-amber-900 tracking-tight">Kigozi Farm Grant</span>
+        </div>
+        <a href="#donate" class="bg-amber-800 hover:bg-amber-900 text-white font-semibold text-sm px-4 py-2 rounded-lg transition-all shadow-sm">
+            Fund Inputs
+        </a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="max-w-4xl mx-auto px-4 pt-10 pb-8 text-center">
+        <span class="inline-block bg-amber-100 text-amber-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider mb-4">
+            Uganda Smallholder Campaign
+        </span>
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-stone-900 tracking-tight leading-tight mb-4">
+            Help Us Plant 1 Acre of <br class="hidden sm:inline"><span class="text-amber-800">Sweet Cream Pumpkins</span>
+        </h1>
+        <p class="text-stone-600 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-8">
+            Small inputs, huge harvests. We have secured the land—now we are raising <strong>UGX 850,000</strong> for seeds, organic manure, and irrigation tools to launch a self-sustaining pumpkin yield.
+        </p>
+
+        <!-- Progress Card -->
+        <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm max-w-xl mx-auto mb-10">
+            <div class="flex justify-between items-baseline mb-2">
+                <span class="text-2xl font-bold text-amber-900">UGX 210,000</span>
+                <span class="text-sm font-medium text-stone-500">Goal: UGX 850,000</span>
+            </div>
+            <!-- Progress Bar -->
+            <div class="w-full bg-stone-100 rounded-full h-4 mb-3 overflow-hidden">
+                <div class="bg-amber-600 h-4 rounded-full progress-bar-fill" style="width: 24.7%;"></div>
+            </div>
+            <div class="flex justify-between text-xs font-semibold text-stone-500">
+                <span>24% Funded</span>
+                <span>500 Stations Planned</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Tiers Section -->
+    <section class="max-w-5xl mx-auto px-4 py-8">
+        <h2 class="text-2xl font-bold text-stone-900 text-center mb-2">Choose Your Impact Tier</h2>
+        <p class="text-center text-stone-600 text-sm mb-8">Select a preset tier to fund specific physical farm supplies.</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <!-- Tier 1 -->
+            <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm flex flex-col justify-between hover:border-amber-600 transition-all">
+                <div>
+                    <span class="text-xs font-bold text-amber-800 bg-amber-50 px-2 py-1 rounded">50 Stations</span>
+                    <h3 class="font-bold text-lg text-stone-900 mt-2">Seed Starter Pack</h3>
+                    <p class="text-2xl font-extrabold text-stone-800 my-2">UGX 15,000</p>
+                    <p class="text-stone-600 text-xs leading-relaxed">
+                        Supplies high-germination <em>Bale Sweet Cream</em> seeds for 50 planting stations.
+                    </p>
+                </div>
+                <a href="#donate" class="mt-6 block text-center bg-stone-100 hover:bg-amber-800 hover:text-white font-semibold text-xs py-2.5 rounded-lg transition-colors">
+                    Select Tier
+                </a>
+            </div>
+
+            <!-- Tier 2 (Highlighted) -->
+            <div class="bg-amber-50/50 p-6 rounded-xl border-2 border-amber-700 shadow-sm flex flex-col justify-between relative">
+                <span class="absolute -top-3 right-4 bg-amber-800 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full">Popular</span>
+                <div>
+                    <span class="text-xs font-bold text-amber-800 bg-amber-100 px-2 py-1 rounded">Soil Boost</span>
+                    <h3 class="font-bold text-lg text-stone-900 mt-2">Organic Nutrition</h3>
+                    <p class="text-2xl font-extrabold text-stone-800 my-2">UGX 40,000</p>
+                    <p class="text-stone-600 text-xs leading-relaxed">
+                        Funds 5 bags of well-rotted manure to enrich planting holes for maximum fruit yield.
+                    </p>
+                </div>
+                <a href="#donate" class="mt-6 block text-center bg-amber-800 hover:bg-amber-900 text-white font-semibold text-xs py-2.5 rounded-lg transition-colors">
+                    Select Tier
+                </a>
+            </div>
+
+            <!-- Tier 3 -->
+            <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm flex flex-col justify-between hover:border-amber-600 transition-all">
+                <div>
+                    <span class="text-xs font-bold text-amber-800 bg-amber-50 px-2 py-1 rounded">Care Kit</span>
+                    <h3 class="font-bold text-lg text-stone-900 mt-2">Tools & Irrigation</h3>
+                    <p class="text-2xl font-extrabold text-stone-800 my-2">UGX 100,000</p>
+                    <p class="text-stone-600 text-xs leading-relaxed">
+                        Provides hand tools, watering cans, and organic pest protection for 1/4 acre.
+                    </p>
+                </div>
+                <a href="#donate" class="mt-6 block text-center bg-stone-100 hover:bg-amber-800 hover:text-white font-semibold text-xs py-2.5 rounded-lg transition-colors">
+                    Select Tier
+                </a>
+            </div>
+
+            <!-- Tier 4 -->
+            <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm flex flex-col justify-between hover:border-amber-600 transition-all">
+                <div>
+                    <span class="text-xs font-bold text-amber-800 bg-amber-50 px-2 py-1 rounded">1/4 Acre</span>
+                    <h3 class="font-bold text-lg text-stone-900 mt-2">Quarter Sponsor</h3>
+                    <p class="text-2xl font-extrabold text-stone-800 my-2">UGX 250,000</p>
+                    <p class="text-stone-600 text-xs leading-relaxed">
+                        Fully funds land prep, seeds, manure, and care for 125 pumpkin stations.
+                    </p>
+                </div>
+                <a href="#donate" class="mt-6 block text-center bg-stone-100 hover:bg-amber-800 hover:text-white font-semibold text-xs py-2.5 rounded-lg transition-colors">
+                    Select Tier
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Donation / Direct Transfer Details Section -->
+    <section id="donate" class="max-w-xl mx-auto px-4 py-12">
+        <div class="bg-white p-6 sm:p-8 rounded-2xl border border-stone-200 shadow-md">
+            <h3 class="text-xl font-bold text-stone-900 mb-1 text-center">How to Send Your Contribution</h3>
+            <p class="text-xs text-stone-500 mb-6 text-center">Direct Mobile Money details & immediate WhatsApp confirmation.</p>
+
+            <!-- Recipient Account Box -->
+            <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6 space-y-3">
+                <div class="flex justify-between items-center border-b border-amber-200/60 pb-2">
+                    <span class="text-xs font-medium text-stone-600">Account Name:</span>
+                    <span class="text-sm font-bold text-amber-900">Amandu Stephen</span>
+                </div>
+                <div class="flex justify-between items-center border-b border-amber-200/60 pb-2">
+                    <span class="text-xs font-medium text-stone-600">Mobile Money / WhatsApp:</span>
+                    <span class="text-sm font-bold text-amber-900">0756939240</span>
+                </div>
+                <div class="flex justify-between items-center">
+                    <span class="text-xs font-medium text-stone-600">Networks:</span>
+                    <span class="text-xs font-semibold text-stone-700">Airtel Money / MTN MoMo</span>
+                </div>
+            </div>
+
+            <!-- WhatsApp Direct Action Button -->
+            <div class="space-y-3">
+                <a href="https://wa.me/256756939240?text=Hello%20Amandu%20Stephen,%20I%20would%20like%20to%20support%20the%20pumpkin%20farm%20project." target="_blank" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-lg shadow transition-colors text-sm flex items-center justify-center space-x-2">
+                    <span>💬</span>
+                    <span>Confirm Donation via WhatsApp</span>
+                </a>
+                <p class="text-[11px] text-stone-500 text-center">Clicking opens WhatsApp to message <strong>0756939240</strong> directly for photo progress updates.</p>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-stone-100 flex items-center justify-center space-x-2 text-xs text-stone-500">
+                <span>🔒 Transparent local farming project</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proof & Transparency Footer -->
+    <footer class="bg-stone-900 text-stone-400 py-8 text-center text-xs">
+        <div class="max-w-4xl mx-auto px-4 space-y-2">
+            <p class="text-stone-300 font-semibold">Transparency Promise</p>
+            <p>Every contributor receives direct WhatsApp photo updates from <strong>Amandu Stephen (0756939240)</strong> showing seed delivery, hole preparation, planting, and harvest progress.</p>
+            <p class="pt-4 text-stone-600">© 2026 Smallholder Pumpkin Farm Micro-Grant Project.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
